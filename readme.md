@@ -7,7 +7,7 @@ multi-agent, checkpointer, eval, 병렬 실행)까지 쌓아 올린 학습 레�
 > "프레임워크가 뭘 추상화하는지"를 알려면 먼저 직접 만들어봐야 한다는 전제로,
 > raw Python(`agent_pkg/`)부터 시작해 LangGraph로 점진적으로 옮겨갔다.
 
-상세한 단계별 학습 여정과 거기서 얻은 통찰은 **[JOURNEY.md](./JOURNEY.md)** 참고.
+상세한 단계별 학습 여정과 거기서 얻은 통찰은 **[LEARNING_NOTES.md](./LEARNING_NOTES.md)** 참고.
 
 ---
 
@@ -129,7 +129,7 @@ python replan_agent.py
 ├── docs/                     # RAG용 문서 (.md, .txt)
 ├── .env.example              # 환경 변수 템플릿
 ├── requirements.txt
-├── JOURNEY.md                # 상세 학습 기록
+├── LEARNING_NOTES.md                # 상세 학습 기록
 └── README.md
 ```
 
@@ -138,7 +138,7 @@ python replan_agent.py
 ## 학습 기록
 
 이 레포의 핵심은 **단계별로 무엇을 배우고 어디서 막혔는지의 기록**입니다.
-"되는 코드"뿐 아니라 "안 될 때 왜 안 되는지"까지 다룬 회고가 [JOURNEY.md](./JOURNEY.md)에 있습니다.
+"되는 코드"뿐 아니라 "안 될 때 왜 안 되는지"까지 다룬 회고가 [LEARNING_NOTES.md](./LEARNING_NOTES.md)에 있습니다.
 
 특히 다음과 같은 실험적 발견이 담겨 있습니다:
 
