@@ -162,3 +162,7 @@ Thumbs.db
 credentials.json
 credential.json
 token.json
+
+# Local configurations
+agent_pkg/config.py
+
